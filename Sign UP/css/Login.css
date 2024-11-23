@@ -1,0 +1,67 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.column {
+  flex: 1;
+  height: 100%;
+}
+.column:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.row1-container {
+  flex: 1;
+  height: 0px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.row21-container {
+  flex: 2;
+  height: 0px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.row22-container {
+  flex: 1;
+  height: 0px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.column:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+.signup-container {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  position: absolute;
+  left: 29%;
+  top: 9%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.404); /* Change opacity as needed */
+  backdrop-filter: blur(5px);
+}

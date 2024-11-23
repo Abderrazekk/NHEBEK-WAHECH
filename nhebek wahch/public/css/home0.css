@@ -1,0 +1,255 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-g-2,
+.infor-form button,
+.site-btn.sb-line-gradient,
+.site-btn.sb-gradient {
+	background: -o-linear-gradient(305deg, #fdb07d 0%, #f65d5d 100%);
+	background: linear-gradient(145deg, #fdb07d 0%, #f65d5d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fdb07d", endColorstr="#f65d5d", GradientType=1);
+}
+
+/*---------------------
+  Commom elements
+-----------------------*/
+
+/* buttons */
+
+.site-btn {
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	min-width: 167px;
+	padding: 14px 30px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: normal;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.site-btn:hover {
+	color: #fff;
+}
+
+.site-btn.sb-white {
+	background: #fff;
+	color: #f65d5d;
+}
+
+.site-btn.sb-gradient {
+	color: #fff;
+	padding: 13px 29px;
+	position: relative;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	z-index: 1;
+}
+
+.site-btn.sb-gradient::after {
+	content: "";
+	position: absolute;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	top: 2px;
+	left: 2px;
+	border-radius: 80px;
+	background: #fff;
+	z-index: -1;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.site-btn.sb-gradient:hover {
+	color: #f65d5d;
+}
+
+.site-btn.sb-gradient:hover:after {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.site-btn.sb-line-gradient {
+	color: #f65d5d;
+	padding: 13px 29px;
+	position: relative;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	z-index: 1;
+}
+
+.site-btn.sb-line-gradient::after {
+	content: "";
+	position: absolute;
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	top: 2px;
+	left: 2px;
+	border-radius: 80px;
+	background: #fff;
+	z-index: -1;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.site-btn.sb-line-gradient:hover {
+	color: #fff;
+}
+
+.site-btn.sb-line-gradient:hover:after {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+
+/*------------------
+  Header section
+---------------------*/
+
+/*------------------
+    Infor Model
+---------------------*/
+
+/*------------------
+  Header section
+---------------------*/
+
+/*------------------
+  About section
+---------------------*/
+
+
+/*------------------
+  Classes section
+---------------------*/
+
+
+/*------------------
+  Trainer section
+---------------------*/
+
+
+/*------------------
+  Review section
+---------------------*/
+
+
+
+/*------------------
+  Pricing section
+---------------------*/
+.paid-container{
+  width:1800px;
+  height: 1000px;
+  margin: auto;
+}
+.pricing-section {
+	background: #f9f2f0;
+}
+
+.pricing-item {
+	text-align: center;
+	background: #fff;
+	padding-bottom: 40px;
+	margin: 15px 0;
+	border-radius: 13px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.pricing-item:hover {
+	-webkit-box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 12px 32px rgba(72, 105, 114, 0.15);
+}
+
+.pricing-item .pi-top {
+	height: 156px;
+	padding-top: 26px;
+	background: #f65d5d;
+}
+
+.pricing-item .pi-top h4 {
+	font-family: "Playfair Display", serif;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.pricing-item .pi-price {
+	width: 144px;
+	height: 144px;
+	margin: -71px auto 30px;
+	padding-top: 35px;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+	box-shadow: 0px 5px 6px rgba(72, 105, 114, 0.15);
+}
+
+.pricing-item .pi-price h3 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #666666;
+}
+
+.pricing-item .pi-price p {
+	text-transform: uppercase;
+	color: #999999;
+}
+
+.pricing-item ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.pricing-item ul li {
+	font-size: 16px;
+	color: #666666;
+	margin-bottom: 12px;
+}
+
+.pricing-item.begginer .pi-top {
+	background: #fa4848;
+}
+
+.pricing-item.entermediate .pi-top {
+	background: #ca0000;
+}
+
+.pricing-item.advanced .pi-top {
+	background: #720000;
+}
+
+.pricing-item.professional .pi-top {
+	background: #4a0606;
+}
+
+/*------------------
+  Sign up section

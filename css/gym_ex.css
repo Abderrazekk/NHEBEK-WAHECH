@@ -1,0 +1,43 @@
+.wrapper{
+  max-height: 420px;
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 150px;
+}
+
+.wrapper::-webkit-scrollbar{
+  width: 0px;
+}
+.wrapper .item{
+  min-width: 450px;
+  height: 310px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+}
+.two{
+  display: flex;
+}
+.exercice-img{
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-top: 70px;
+  object-fit:contain
+
+}
+
+.motivation-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+  margin-bottom: 70px;
+}
+
+.motivation-item{
+  margin: 20px 100px;
+}

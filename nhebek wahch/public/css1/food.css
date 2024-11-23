@@ -1,0 +1,30 @@
+.type-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+.expl-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+.loul-conainer{
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  margin-left: 70px;
+}
+.loul-conainer h3{
+  margin-top: 80px;
+}
+.theeleth-container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+.theeleth-container h3{
+  margin-top: 80px;
+}
